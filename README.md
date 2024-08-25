@@ -1,4 +1,4 @@
-# PFN-IACL
+# FMLP-IACL
 This repository contains the code for the paper "Intent Augmentation Contrastive Learning for Session-based Social Recommendation.
 
 ## Requirements
@@ -38,7 +38,7 @@ This repository contains the code for the paper "Intent Augmentation Contrastive
    ```
 
 5. Train and evaluate a model using the Python script [run.py](run.py).  
-   For example, to train and evaluate the model PFN on the *Gowalla* dataset, run the following command:
+   For example, to train and evaluate the model FMLP on the *Gowalla* dataset, run the following command:
    ```bash
    sh scripts/run_gowalla.sh
    ```
