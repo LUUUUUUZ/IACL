@@ -1,6 +1,9 @@
 # FMLP-IACL
 This repository contains the code for the paper "Intent Augmentation Contrastive Learning for Session-based Social Recommendation.
 
+## Framework
+![](alg.jpeg)
+
 ## Requirements
 - python 3.9.13
 - torch 1.10.1+cu111
