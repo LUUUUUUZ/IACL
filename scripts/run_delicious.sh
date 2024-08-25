@@ -1,0 +1,21 @@
+python run.py \
+  --model FMLP \
+  --embedding-dim 128 \
+  --dataset-dir ./datasets/delicious \
+  --num-layers 1 \
+  --num-fmlp-layers 2 \
+  --weight-decay 0.01\
+  --lr 1e-3 \
+  --batch-size 256 \
+  --device 7 \
+  --epochs 40 \
+  --model_drop 0.6 \
+  --feat-drop 0.4 \
+  --log-interval 500 \
+  --num-cluster 4000 \
+  --alpha 0.1 \
+  --beta 0.2 \
+  --noise-ratio 0.0 \
+  --augment-type 'reorder' \
+  --similarity-method 'ItemTrans' \
+  --hybrid-epoch 0 \
